@@ -62,7 +62,7 @@ public class RandomNumberService extends Service {
         while(generateRandonNumberFlag)
         {
             randomNumber = random.nextInt(100) + 1;
-            Log.d("kkkk",""+randomNumber);
+            Log.d("kkkk","kk"+randomNumber);
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
