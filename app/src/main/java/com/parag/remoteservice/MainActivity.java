@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         {
             case R.id.btn_start: startService(serviceIntent); break;
             case R.id.btn_stop: stopService(serviceIntent);break;
-            default: Toast.makeText(this,"Something sucked bad",Toast.LENGTH_SHORT).show();
+            default: Toast.makeText(this,"Something bad happened",Toast.LENGTH_SHORT).show();
         }
     }
 }
